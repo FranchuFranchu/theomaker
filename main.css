@@ -1,0 +1,97 @@
+body {
+	margin: 0px;
+}
+.wrapper {
+	background-color: blue;
+	margin: 1px;
+	padding: 1em;
+	color: white;
+
+}
+
+input {
+	border: 0px solid blue;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+button {
+	border: 1px solid black;
+	height: 100%;
+	background-color: white;
+}
+button:hover {
+	color: white;
+	border-color: white;
+	background-color: inherit;
+}
+#credits {
+	font-size: 10px;
+}
+#credits svg {
+	height: 10px;
+}
+.text-key {
+	margin: 4px;
+	color:white;
+	font-weight: bold;
+}
+
+.key-text {
+	margin-right: 1em;
+	font-family: monospace;
+	font-size: 1.5em
+}
+.key-and-value {
+	border:1px solid blue;
+	padding: 5px;
+	background-color: blue;
+	color: white;
+}
+
+input {
+	color: black;
+}
+
+/* Remove default bullets */
+ul, #theoMain {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#theoMain	 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+} 
+
+.add-item {
+	background-color: inherit;
+	user-select: none;
+}
